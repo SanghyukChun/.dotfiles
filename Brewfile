@@ -73,15 +73,23 @@ cask 'sublime-text'
 cask 'postman'
 cask 'visual-studio-code'
 
+# Apps for research
+cask 'basictex'
+cask 'latexit'
+cask 'mendeley'
+cask 'notion'
+cask 'grammarly'
+
 # Apps
 cask 'firefox'
 cask 'google-chrome'
 cask 'vlc'
 cask 'dropbox'
 cask 'skype'
+cask 'zoomus'
 cask 'slack'
 cask 'the-unarchiver'
-cask 'latexit'
+cask 'scroll-reverser'
 cask 'rectangle' # alternative of spectacle
 
 # Mac App Store
@@ -90,3 +98,4 @@ mas 'Numbers', id: 409203825
 mas 'KakaoTalk', id: 869223134
 mas 'line', id: 539883307
 mas 'Todoist', id: 585829637
+mas 'popupdic', id: 765419220
