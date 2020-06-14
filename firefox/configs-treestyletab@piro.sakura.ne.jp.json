@@ -1,0 +1,32 @@
+{
+  "applyBrowserTheme": false,
+  "autoAttachOnNewTabCommand": 2,
+  "cachedExternalAddons": [
+    "{c2c003ee-bd69-42a2-b0e9-6f34222cb046}"
+  ],
+  "closeParentBehaviorMode": 1,
+  "configsVersion": 10,
+  "dropLinksOnTabBehavior": 2,
+  "lastConfirmedToCloseTabs": 1581329891733,
+  "migratedBookmarkUrls": [
+    "moz-extension://85a7ea77-6a6a-9e42-b682-6637d000059c/resources/group-tab.html",
+    "moz-extension://85a7ea77-6a6a-9e42-b682-6637d000059c/options/options.html",
+    "moz-extension://85a7ea77-6a6a-9e42-b682-6637d000059c/resources/startup.html",
+    "moz-extension://85a7ea77-6a6a-9e42-b682-6637d000059c/tests/runner.html"
+  ],
+  "notifiedFeaturesVersion": 4,
+  "optionsExpandedSections": [
+    "section-appearance",
+    "section-newTab",
+    "section-treeBehavior",
+    "section-drag",
+    "section-shortcuts",
+    "section-advanced",
+    "section-debug"
+  ],
+  "scrollbarMode": 3,
+  "style": "vertigo",
+  "userStyleRules": "/* Show title of unread tabs with red and italic font */\n/*\n.tab.unread .label {\n  color: red !important;\n  font-style: italic !important;\n}\n*/\n\n/* Add private browsing indicator per tab */\n/*\n.tab.private-browsing .label:before {\n  content: \"🕶\";\n}\n*/",
+  "warnOnCloseTabs": false,
+  "warnOnCloseTabsByClosebox": false
+}

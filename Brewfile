@@ -18,6 +18,7 @@ brew 'bat' # better cat
 brew 'fd' # fast find
 
 ## Development
+brew 'vim'
 brew 'neovim'
 brew 'tmux'
 brew 'git'

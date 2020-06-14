@@ -109,7 +109,14 @@ export TMOUT=0
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-alias vim="nvim"
-alias vi="nvim"
-alias vimdiff="nvim -d"
+# decomment if you want to use neovim as the default
+# alias vim="nvim"
+# alias vi="nvim"
+# alias vimdiff="nvim -d"
+
+# Use neovim instead of vim
 export EDITOR=/usr/local/bin/nvim
+
+# Use $HOME/env as the default environment
+source $HOME/env/bin/activate
+PYLINTRC=$HOME/.pylintrc

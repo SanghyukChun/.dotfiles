@@ -1,0 +1,15 @@
+pynvim
+pylint
+jupyter
+fire
+munch
+tqdm
+requests
+matplotlib
+seaborn
+msgpack-python
+opencv-python
+pillow
+numpy
+pandas
+scikit-learn
