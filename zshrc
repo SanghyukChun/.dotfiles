@@ -108,3 +108,8 @@ export TMOUT=0
 
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+
+alias vim="nvim"
+alias vi="nvim"
+alias vimdiff="nvim -d"
+export EDITOR=/usr/local/bin/nvim
