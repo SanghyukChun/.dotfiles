@@ -92,6 +92,8 @@ cask 'slack'
 cask 'the-unarchiver'
 cask 'scroll-reverser'
 cask 'rectangle' # alternative of spectacle
+cask 'balance-lock' # keep your audio centred and prevent left/right drift
+cask 'turbo-boost-switcher' # Turbo Boost Switcher for OS X
 
 # Mac App Store
 mas 'Keynote', id: 409183694
