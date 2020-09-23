@@ -13,3 +13,4 @@ pillow
 numpy
 pandas
 scikit-learn
+arxiv-latex-cleaner

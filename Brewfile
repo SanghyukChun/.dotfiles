@@ -32,7 +32,6 @@ brew 'nodejs'
 brew 'ruby'
 brew 'octave'
 brew 'lua'
-brew 'python'
 brew 'python@3.8'
 
 ## Database & serializers
@@ -75,7 +74,10 @@ cask 'postman'
 cask 'visual-studio-code'
 
 # Apps for research
-cask 'basictex'
+## Recommend to directly download at
+## https://tug.org/mactex/mactex-download.html
+# cask 'basictex'
+# cask 'mactex-no-gui'
 cask 'latexit'
 cask 'mendeley'
 cask 'notion'
