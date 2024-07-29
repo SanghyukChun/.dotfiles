@@ -66,7 +66,7 @@ let g:nerdtree_tabs_open_on_console_startup=1 " Open NERDTree on console vim sta
 " ------------------------------------------------------------------------------------------"
 
 " --- NERDTree Git Setting ----------------------------------------------------------------"
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
       \ "Modified"  : "~",
       \ "Staged"    : "+",
       \ "Untracked" : "u",
