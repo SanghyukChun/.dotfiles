@@ -1,10 +1,11 @@
 cask_args appdir: '/Applications'
 
 # Taps
-tap 'homebrew/cask'
-tap 'homebrew/cask-eid'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
+# Tapping homebrew/cask is no longer typically necessary
+# tap 'homebrew/cask'
+# tap 'homebrew/cask-eid'
+# tap 'homebrew/cask-fonts'
+# tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
@@ -18,6 +19,7 @@ brew 'bat' # better cat
 brew 'fd' # fast find
 
 ## Development
+brew 'iterm2'
 brew 'vim'
 brew 'neovim'
 brew 'tmux'
@@ -32,7 +34,7 @@ brew 'nodejs'
 brew 'ruby'
 brew 'octave'
 brew 'lua'
-brew 'python@3.8'
+# brew 'python@3.8'
 
 ## Database & serializers
 brew 'hdf5'
@@ -65,9 +67,10 @@ brew 'mas' # Mac App Store manager
 brew 'zlib' # Needed for Memcached
 
 # Apps for development
+# disconnected apps
+# cask 'sequel-pro'
+# cask 'robo-3t'
 cask 'docker'
-cask 'sequel-pro'
-cask 'robo-3t'
 cask 'java'
 cask 'sublime-text'
 cask 'postman'
@@ -81,7 +84,8 @@ cask 'visual-studio-code'
 cask 'latexit'
 cask 'mendeley'
 cask 'notion'
-cask 'grammarly'
+# disconnected
+# cask 'grammarly'
 
 # Apps
 cask 'firefox'
