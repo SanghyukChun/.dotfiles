@@ -19,7 +19,6 @@ brew 'bat' # better cat
 brew 'fd' # fast find
 
 ## Development
-brew 'iterm2'
 brew 'vim'
 brew 'neovim'
 brew 'tmux'
@@ -31,9 +30,9 @@ brew 'jq'
 
 ## Languages
 brew 'nodejs'
-brew 'ruby'
+# brew 'ruby'
 brew 'octave'
-brew 'lua'
+# brew 'lua'
 # brew 'python@3.8'
 
 ## Database & serializers
@@ -75,6 +74,7 @@ cask 'java'
 cask 'sublime-text'
 cask 'postman'
 cask 'visual-studio-code'
+cask 'iterm2'
 
 # Apps for research
 ## Recommend to directly download at
@@ -84,6 +84,7 @@ cask 'visual-studio-code'
 cask 'latexit'
 cask 'mendeley'
 cask 'notion'
+cask 'obsidian'
 # disconnected
 # cask 'grammarly'
 
